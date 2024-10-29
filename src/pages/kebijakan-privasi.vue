@@ -4,11 +4,6 @@ import IconArrowLeft from "virtual:icons/mdi/arrow-left";
 
 <template>
   <main class="w-[40rem] px-6 py-12 text-left flex flex-col gap-y-2">
-    <router-link
-      to="/"
-      class="underline text-gray-400 hover:text-gray-300 gap-x-1 active:text-gray-500 focus:outline-gray-400 transition inline-flex"
-      ><IconArrowLeft class="my-auto" /> Balik ke menfess...</router-link
-    >
     <h1 class="text-2xl font-bold mt-4">Kebijakan Privasi</h1>
     <p class="text-gray-400">Efektif dari tanggal 29 Oktober 2024.</p>
     <p class="text-gray-400">
@@ -19,21 +14,24 @@ import IconArrowLeft from "virtual:icons/mdi/arrow-left";
     </p>
     <h2 class="text-xl font-bold mt-4">I. Pengumpulan Informasi</h2>
     <p class="text-gray-400">
-      Kami tidak mengumpulkan informasi yang Anda tidak pilih untuk kirim. Kami berjanji untuk tidak mengumpulkan,
-      menyimpan, atau memproses alamat email, nomor telepon, data lokasi,
-      atau informasi pribadi lainnya. Privasi Anda adalah komitmen kami.
+      Kami tidak mengumpulkan informasi yang Anda tidak pilih untuk kirim. Kami
+      berjanji untuk tidak mengumpulkan, menyimpan, atau memproses alamat email,
+      nomor telepon, data lokasi, atau informasi pribadi lainnya. Privasi Anda
+      adalah komitmen kami.
     </p>
     <h2 class="text-xl font-bold mt-4">II. Pemrosesan Pesan</h2>
     <p class="text-gray-400">
-      Satu-satunya data yang kami proses adalah feedback dan informasi kontak yang Anda kirim. Saat Anda mengirim feedback, kami memproses
-      dan menyimpan konten pesan dan informasi kontak yang Anda kirim.
+      Satu-satunya data yang kami proses adalah feedback dan informasi kontak
+      yang Anda kirim. Saat Anda mengirim feedback, kami memproses dan menyimpan
+      konten pesan dan informasi kontak yang Anda kirim.
     </p>
     <h2 class="text-xl font-bold mt-4">III. Pelacakan dan Analitik</h2>
     <p class="text-gray-400">
       Kami tidak menggunakan bentuk pelacakan, cookies, atau layanan analitik
       apapun yang dapat mengumpulkan data perilaku pengguna atau informasi
-      pribadi. Aktivitas Anda di platform kami sepenuhnya anonim, kecuali untuk informasi yang Anda pilih untuk kirim, dan tidak ada
-      kebiasaan atau pola penelusuran yang dipantau.
+      pribadi. Aktivitas Anda di platform kami sepenuhnya anonim, kecuali untuk
+      informasi yang Anda pilih untuk kirim, dan tidak ada kebiasaan atau pola
+      penelusuran yang dipantau.
     </p>
     <h2 class="text-xl font-bold mt-4">IV. Layanan Pihak Ketiga</h2>
     <p class="text-gray-400">
@@ -59,8 +57,8 @@ import IconArrowLeft from "virtual:icons/mdi/arrow-left";
       >.
     </p>
     <p class="text-gray-400">
-      Dengan menggunakan dan mengirim feedback lewat Feedback 10.2, Anda menyetujui
-      ketentuan Kebijakan Privasi ini.
+      Dengan menggunakan dan mengirim feedback lewat Feedback 10.2, Anda
+      menyetujui ketentuan Kebijakan Privasi ini.
     </p>
   </main>
 </template>
