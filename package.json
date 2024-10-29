@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@fontsource/nunito": "^5.1.0",
+    "@headlessui/vue": "^1.7.23",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.6.1",
     "vue": "^3.4.27",
