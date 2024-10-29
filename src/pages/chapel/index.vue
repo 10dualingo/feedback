@@ -58,7 +58,7 @@ export default {
 </script>
 
 <template>
-  <main class="">
+  <main class="w-full">
     <TransitionRoot appear :show="dialogOpen" as="template">
       <Dialog as="div" @close="setDialogOpen(false)" class="relative z-10">
         <TransitionChild
@@ -92,16 +92,16 @@ export default {
                 <div class="flex flex-row">
                   <DialogTitle
                     as="h3"
-                    class="text-xl font-semibold leading-6 text-white"
+                    class="text-lg md:text-xl font-semibold leading-6 text-white"
                   >
                     Bentar! Sebelum kamu kirim...
                   </DialogTitle>
                 </div>
                 <div class="mt-2">
-                  <p class="text-lg text-white/75">
+                  <p class="text-base md:text-lg text-white/75">
                     Bolehkah aku mendapat nama dan kelas kamu untuk pesan ini?
                   </p>
-                  <p class="text-white/50">
+                  <p class="text-white/50 text-sm md:text-base">
                     (Jangan khawatir, pesan kamu tidak akan disampaikan di luar
                     pengurus kelas!)
                   </p>
@@ -146,7 +146,9 @@ export default {
         </div>
       </Dialog>
     </TransitionRoot>
-    <section class="w-[40rem] h-full flex flex-col justify-center">
+    <section
+      class="max-w-[40rem] px-4 h-full mx-auto flex flex-col justify-center"
+    >
       <div class="mb-3 h-44 md:h-56 w-full flex-col flex gap-y-2">
         <div
           class="h-full flex flex-col p-2 border-[#494b4f] border-[3px] rounded-3xl group focus-within:border-blue-400 transition"
